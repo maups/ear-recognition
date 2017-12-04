@@ -2,7 +2,7 @@
 
 Models and demo code for http://arxiv.org/abs/1710.07662
 
-###Authors
+### Authors
 
 - Earnest E. Hansley
 - Mauricio Pamplona Segundo
