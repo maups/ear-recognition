@@ -38,3 +38,9 @@ $ g++ -std=c++11 demo.cpp -o demo `pkg-config --libs --cflags ~/your_choice/open
 $ export LD_LIBRARY_PATH=~/your_choice/opencv_install/lib/
 $ ./demo your_image.png
 ```
+
+# What it does?
+
+![Input](images/image0.png =x100)
+![Input](images/image1.png =x100)
+![Input](images/image2.png =x100)
