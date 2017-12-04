@@ -55,7 +55,7 @@ $ ./demo your_image.png
   </tr>
 </table>
 
-1. Loads an input image
+1. Load an input image
 2. Convert image in step #1 to grayscale
 3. Normalize the image in step #2 using a coarse parameter estimation
 4. Run side classification and flip the image in step #3 horizontally if necessary
