@@ -3,13 +3,13 @@ Authors: Earnest E. Hansley, Mauricio Pamplona Segundo, Sudeep Sarkar
 
 Models and demo code for http://arxiv.org/abs/1710.07662
 
-# Models
+### Models
 - Side classifier (75MB): [https://drive.google.com/open?id=17Km_uNnK135w94HlXWXzUW0hYxRj_9-W](https://drive.google.com/open?id=17Km_uNnK135w94HlXWXzUW0hYxRj_9-W)
 - Landmark detector (1st stage, 75MB): [https://drive.google.com/open?id=1WhG3Jq5qzYe7hGL-Q_oHcBI_iaxaRPcO](https://drive.google.com/open?id=1WhG3Jq5qzYe7hGL-Q_oHcBI_iaxaRPcO)
 - Landmark detector (2nd stage, 75MB): [https://drive.google.com/open?id=12oM0NPmJhDKI_m1GakvTFtV3Uaxk9wUo](https://drive.google.com/open?id=12oM0NPmJhDKI_m1GakvTFtV3Uaxk9wUo)
 - CNN descriptor (71MB): [https://drive.google.com/open?id=1BnUX8cVrjYBtpD8ESnwb5b6Wmiuknl3S](https://drive.google.com/open?id=1BnUX8cVrjYBtpD8ESnwb5b6Wmiuknl3S)
 
-# Requirements
+### Requirements
 
 This code only requires the master branch of OpenCV to work. You can install it locally with the following sequence of steps without making any modifications in a different OpenCV version previously installed in your system (Ubuntu 16.04):
 
@@ -29,7 +29,7 @@ $ make -j 4
 $ make install
 ```
 
-# Compiling and running
+### Compiling and running
 
 How to compile and run using a local OpenCV installation:
 
@@ -39,7 +39,7 @@ $ export LD_LIBRARY_PATH=~/your_choice/opencv_install/lib/
 $ ./demo your_image.{png,jpg,...}
 ```
 
-# What this demo does?
+### What this demo does?
 
 <table>
   <tr align="center"><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td><td>(5)</td><td>(6)</td><td>(7)</td><td>(8)</td></tr>
@@ -63,3 +63,26 @@ $ ./demo your_image.{png,jpg,...}
 6. Adjust parameters using landmarks obtained in step #5 and renormalize the image in step #2
 7. Detect landmarks in the image of step #6 using 2nd stage, which is more accurate for well normalized images
 8. Adjust parameters using landmarks obtained in step #7 and renormalize the image in step #2, then extract a CNN descriptor (output.txt) from the normalized image (output.png)
+
+
+## Citing
+
+If you find the code in this repository useful in your research, please consider citing:
+```
+@article{DBLP:journals/corr/abs-1710-07662,
+  author    = {Earnest E. Hansley and
+               Mauricio Pamplona Segundo and
+               Sudeep Sarkar},
+  title     = {Employing Fusion of Learned and Handcrafted Features for Unconstrained
+               Ear Recognition},
+  journal   = {CoRR},
+  volume    = {abs/1710.07662},
+  year      = {2017},
+  url       = {http://arxiv.org/abs/1710.07662},
+  archivePrefix = {arXiv},
+  eprint    = {1710.07662},
+  timestamp = {Wed, 01 Nov 2017 19:05:43 +0100},
+  biburl    = {http://dblp.org/rec/bib/journals/corr/abs-1710-07662},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+```
