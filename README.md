@@ -41,8 +41,7 @@ $ ./demo your_image.png
 
 # What this demo does?
 
-<center>
-<table>
+<table align="center">
   <tr><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td><td>(5)</td><td>(6)</td><td>(7)</td><td>(8)</td></tr>
   <tr>
     <td><img src="images/image0.png" height="100"/></td>
@@ -55,7 +54,6 @@ $ ./demo your_image.png
     <td><img src="images/image7.png" height="100"/></td>
   </tr>
 </table>
-</center>
 
 1. Loads an input image
 2. Convert image in step #1 to grayscale
