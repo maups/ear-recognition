@@ -41,6 +41,7 @@ $ ./demo your_image.png
 
 # What it does?
 
+<img src="images/image0.png" style="height: 100px;"/>
 ![](./images/image0.png)
 ![](./images/image1.png)
 ![](./images/image2.png)
