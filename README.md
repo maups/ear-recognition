@@ -39,6 +39,15 @@ $ export LD_LIBRARY_PATH=~/your_choice/opencv_install/lib/
 $ ./demo your_image.png
 ```
 
-# What it does?
+# What this demo does?
 
 <img src="images/image0.png" height="100"/><img src="images/image1.png" height="100"/><img src="images/image2.png" height="100"/><img src="images/image3.png" height="100"/><img src="images/image4.png" height="100"/><img src="images/image5.png" height="100"/><img src="images/image6.png" height="100"/><img src="images/image7.png" height="100"/>
+
+1. Loads an input image
+2. Convert image in step #1 to grayscale
+3. Normalize the image in step #2 using a coarse parameter estimation
+4. Run side classification and flip the image in step #3 horizontally if necessary
+5. Detect landmarks in the image in step #4 using 1st stage, which is more robust to pose variations
+6. Adjust parameters using landmarks obtained in step #5 and renormalize the image in step #2
+7. Detect landmarks in the image of step #6 using 2nd stage, which is more accurate for well normalized images
+8. Adjust parameters using landmarks obtained in step #7 and renormalize the image in step #2
