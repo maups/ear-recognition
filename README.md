@@ -41,11 +41,4 @@ $ ./demo your_image.png
 
 # What it does?
 
-<img src="images/image0.png" style="height: 100px;"/>
-<img src="images/image1.png" style="height: 100px;"/>
-<img src="images/image2.png" style="height: 100px;"/>
-<img src="images/image3.png" style="height: 100px;"/>
-<img src="images/image4.png" style="height: 100px;"/>
-<img src="images/image5.png" style="height: 100px;"/>
-<img src="images/image6.png" style="height: 100px;"/>
-<img src="images/image7.png" style="height: 100px;"/>
+<img src="images/image0.png" height="100"/><img src="images/image1.png" height="100"/><img src="images/image2.png" height="100"/><img src="images/image3.png" height="100"/><img src="images/image4.png" height="100"/><img src="images/image5.png" height="100"/><img src="images/image6.png" height="100"/><img src="images/image7.png" height="100"/>
