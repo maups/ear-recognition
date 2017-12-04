@@ -44,3 +44,8 @@ $ ./demo your_image.png
 ![](./images/image0.png)
 ![](./images/image1.png)
 ![](./images/image2.png)
+![](./images/image3.png)
+![](./images/image4.png)
+![](./images/image5.png)
+![](./images/image6.png)
+![](./images/image7.png)
