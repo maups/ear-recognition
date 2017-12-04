@@ -62,4 +62,4 @@ $ ./demo your_image.png
 5. Detect landmarks in the image in step #4 using 1st stage, which is more robust to pose variations
 6. Adjust parameters using landmarks obtained in step #5 and renormalize the image in step #2
 7. Detect landmarks in the image of step #6 using 2nd stage, which is more accurate for well normalized images
-8. Adjust parameters using landmarks obtained in step #7 and renormalize the image in step #2, then extract CNN descriptor from the normalized image
+8. Adjust parameters using landmarks obtained in step #7 and renormalize the image in step #2, then extract a CNN descriptor (output.txt) from the normalized image (output.png)
