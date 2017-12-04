@@ -41,6 +41,7 @@ $ ./demo your_image.png
 
 # What this demo does?
 
+<center>
 <table>
   <tr><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td><td>(5)</td><td>(6)</td><td>(7)</td><td>(8)</td></tr>
   <tr>
@@ -54,6 +55,7 @@ $ ./demo your_image.png
     <td><img src="images/image7.png" height="100"/></td>
   </tr>
 </table>
+</center>
 
 1. Loads an input image
 2. Convert image in step #1 to grayscale
@@ -62,4 +64,4 @@ $ ./demo your_image.png
 5. Detect landmarks in the image in step #4 using 1st stage, which is more robust to pose variations
 6. Adjust parameters using landmarks obtained in step #5 and renormalize the image in step #2
 7. Detect landmarks in the image of step #6 using 2nd stage, which is more accurate for well normalized images
-8. Adjust parameters using landmarks obtained in step #7 and renormalize the image in step #2
+8. Adjust parameters using landmarks obtained in step #7 and renormalize the image in step #2, then extract CNN descriptor from the normalized image
