@@ -41,6 +41,6 @@ $ ./demo your_image.png
 
 # What it does?
 
-![Input](images/image0.png =x100)
-![Input](images/image1.png =x100)
-![Input](images/image2.png =x100)
+![](./images/image0.png =x100)
+![](./images/image1.png =x100)
+![](./images/image2.png =x100)
