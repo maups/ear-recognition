@@ -41,9 +41,9 @@ $ ./demo your_image.png
 
 # What this demo does?
 
-<table align="center">
-  <tr><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td><td>(5)</td><td>(6)</td><td>(7)</td><td>(8)</td></tr>
-  <tr>
+<table>
+  <tr align="center"><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td><td>(5)</td><td>(6)</td><td>(7)</td><td>(8)</td></tr>
+  <tr align="center">
     <td><img src="images/image0.png" height="100"/></td>
     <td><img src="images/image1.png" height="100"/></td>
     <td><img src="images/image2.png" height="100"/></td>
