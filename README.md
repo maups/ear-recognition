@@ -42,11 +42,10 @@ $ ./demo your_image.png
 # What it does?
 
 <img src="images/image0.png" style="height: 100px;"/>
-![](./images/image0.png)
-![](./images/image1.png)
-![](./images/image2.png)
-![](./images/image3.png)
-![](./images/image4.png)
-![](./images/image5.png)
-![](./images/image6.png)
-![](./images/image7.png)
+<img src="images/image1.png" style="height: 100px;"/>
+<img src="images/image2.png" style="height: 100px;"/>
+<img src="images/image3.png" style="height: 100px;"/>
+<img src="images/image4.png" style="height: 100px;"/>
+<img src="images/image5.png" style="height: 100px;"/>
+<img src="images/image6.png" style="height: 100px;"/>
+<img src="images/image7.png" style="height: 100px;"/>
