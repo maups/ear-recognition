@@ -2,19 +2,19 @@
 
 Models and demo code for http://arxiv.org/abs/1710.07662
 
-### Authors
+## Authors
 
 - Earnest E. Hansley
 - Mauricio Pamplona Segundo
 - Sudeep Sarkar
 
-### Models
+## Models
 - Side classifier (75MB): [https://drive.google.com/open?id=17Km_uNnK135w94HlXWXzUW0hYxRj_9-W](https://drive.google.com/open?id=17Km_uNnK135w94HlXWXzUW0hYxRj_9-W)
 - Landmark detector (1st stage, 75MB): [https://drive.google.com/open?id=1WhG3Jq5qzYe7hGL-Q_oHcBI_iaxaRPcO](https://drive.google.com/open?id=1WhG3Jq5qzYe7hGL-Q_oHcBI_iaxaRPcO)
 - Landmark detector (2nd stage, 75MB): [https://drive.google.com/open?id=12oM0NPmJhDKI_m1GakvTFtV3Uaxk9wUo](https://drive.google.com/open?id=12oM0NPmJhDKI_m1GakvTFtV3Uaxk9wUo)
 - CNN descriptor (71MB): [https://drive.google.com/open?id=1BnUX8cVrjYBtpD8ESnwb5b6Wmiuknl3S](https://drive.google.com/open?id=1BnUX8cVrjYBtpD8ESnwb5b6Wmiuknl3S)
 
-### Requirements
+## Requirements
 
 This code only requires the master branch of OpenCV to work. You can install it locally with the following sequence of steps without making any modifications in a different OpenCV version previously installed in your system (Ubuntu 16.04):
 
@@ -34,7 +34,7 @@ $ make -j 4
 $ make install
 ```
 
-### Compiling and running
+## Compiling and running
 
 How to compile and run using a local OpenCV installation:
 
@@ -44,7 +44,7 @@ $ export LD_LIBRARY_PATH=~/your_choice/opencv_install/lib/
 $ ./demo your_image.{png,jpg,...}
 ```
 
-### What this demo does?
+## What this demo does?
 
 <table>
   <tr align="center"><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td><td>(5)</td><td>(6)</td><td>(7)</td><td>(8)</td></tr>
