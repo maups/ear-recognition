@@ -74,20 +74,19 @@ $ ./demo your_image.{png,jpg,...}
 
 If you find the code in this repository useful in your research, please consider citing:
 ```
-@article{DBLP:journals/corr/abs-1710-07662,
-  author    = {Earnest E. Hansley and
-               Mauricio Pamplona Segundo and
-               Sudeep Sarkar},
-  title     = {Employing Fusion of Learned and Handcrafted Features for Unconstrained
-               Ear Recognition},
-  journal   = {CoRR},
-  volume    = {abs/1710.07662},
-  year      = {2017},
-  url       = {http://arxiv.org/abs/1710.07662},
-  archivePrefix = {arXiv},
-  eprint    = {1710.07662},
-  timestamp = {Wed, 01 Nov 2017 19:05:43 +0100},
-  biburl    = {http://dblp.org/rec/bib/journals/corr/abs-1710-07662},
-  bibsource = {dblp computer science bibliography, http://dblp.org}
+@ARTICLE{
+   iet:/content/journals/10.1049/iet-bmt.2017.0210,
+   author = {Earnest Hansley},
+   author = {Mauricio Pamplona Segundo},
+   author = {Sudeep Sarkar},
+   ISSN = {2047-4938},
+   language = {English},
+   title = {Employing Fusion of Learned and Handcrafted Features for Unconstrained Ear  Recognition},
+   journal = {IET Biometrics},
+   year = {2018},
+   month = {January},
+   publisher ={Institution of Engineering and Technology},
+   copyright = {© Institution of Engineering and Technology},
+   url = {http://digital-library.theiet.org/content/journals/10.1049/iet-bmt.2017.0210}
 }
 ```
