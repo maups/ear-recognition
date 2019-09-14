@@ -1,6 +1,6 @@
 # Employing Fusion of Learned and Handcrafted Features for Unconstrained Ear Recognition
 
-Models and demo code for http://digital-library.theiet.org/content/journals/10.1049/iet-bmt.2017.0210 (arXiv: http://arxiv.org/abs/1710.07662)
+Models and demo code for http://digital-library.theiet.org/content/journals/10.1049/iet-bmt.2017.0210 (arXiv: http://arxiv.org/abs/1710.07662). This product is covered by U.S. Patent No. 10,423,823.
 
 ## Authors
 
