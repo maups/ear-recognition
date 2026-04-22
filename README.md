@@ -9,10 +9,10 @@ Models and demo code for http://digital-library.theiet.org/content/journals/10.1
 - Sudeep Sarkar
 
 ## Models
-- Side classifier (75MB): [https://drive.google.com/file/d/1KYS_3tUWlxY7Gv5SjymSsnIUG-b8wApE/view?usp=sharing](https://drive.google.com/file/d/1KYS_3tUWlxY7Gv5SjymSsnIUG-b8wApE/view?usp=sharing)
-- Landmark detector (1st stage, 75MB): [https://drive.google.com/file/d/1OLCUhbY4lLgEUbC6dBdw4FaunQtkc1Ub/view?usp=sharing](https://drive.google.com/file/d/1OLCUhbY4lLgEUbC6dBdw4FaunQtkc1Ub/view?usp=sharing)
-- Landmark detector (2nd stage, 75MB): [https://drive.google.com/file/d/15x9BPg7r5sk0ab7wAKd4h0Mo9DdrmM5F/view?usp=sharing](https://drive.google.com/file/d/15x9BPg7r5sk0ab7wAKd4h0Mo9DdrmM5F/view?usp=sharing)
-- CNN descriptor (71MB): [https://drive.google.com/file/d/1Sg4oRUotuwheCkSKIesu0K7fWHzxsitl/view?usp=sharing](https://drive.google.com/file/d/1Sg4oRUotuwheCkSKIesu0K7fWHzxsitl/view?usp=sharing)
+- Side classifier (75MB): [https://drive.google.com/file/d/1QoQLJIQDvYfHUDeOgGP4kXnI-4m2oDdo/view?usp=sharing](https://drive.google.com/file/d/1QoQLJIQDvYfHUDeOgGP4kXnI-4m2oDdo/view?usp=sharing)
+- Landmark detector (1st stage, 75MB): [https://drive.google.com/file/d/1TCqjH42eQ8gC2wJVtxh_YMyBR3ZoRJ-D/view?usp=sharing](https://drive.google.com/file/d/1TCqjH42eQ8gC2wJVtxh_YMyBR3ZoRJ-D/view?usp=sharing)
+- Landmark detector (2nd stage, 75MB): [https://drive.google.com/file/d/1q_LrOFxrRDQsoLcdTgz9eOAYb_nTnCEt/view?usp=sharing](https://drive.google.com/file/d/1q_LrOFxrRDQsoLcdTgz9eOAYb_nTnCEt/view?usp=sharing)
+- CNN descriptor (71MB): [https://drive.google.com/file/d/1P7NAP6WWNRb4bRYkJi0lU2wCjCNk4JQF/view?usp=sharing](https://drive.google.com/file/d/1P7NAP6WWNRb4bRYkJi0lU2wCjCNk4JQF/view?usp=sharing)
 
 ## Requirements
 
